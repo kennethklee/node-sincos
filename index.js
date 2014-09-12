@@ -5,13 +5,6 @@
 var sin = exports.sin = function(rad) {
     var sine;
 
-    // Wrap once
-    if (rad < -3.14159265) {
-        rad += 6.28318531;
-    } else if (rad >  3.14159265) {
-        rad -= 6.28318531;
-    }
-
     if (rad < 0) {
         sine = rad * (1.27323954 + .405284735 * rad);
     } else {

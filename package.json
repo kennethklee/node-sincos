@@ -4,7 +4,8 @@
   "description": "Fast sine and cosine approximations.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha -R spec",
+    "benchmark": "ndoe benchmark.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/kennethklee/node-sincos",
   "devDependencies": {
+    "benchmark": "^1.0.0",
     "mocha": "^1.21.4",
     "should": "^4.0.4"
   }
