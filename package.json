@@ -1,0 +1,27 @@
+{
+  "name": "sincos",
+  "version": "1.0.0",
+  "description": "Fast sine and cosine approximations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennethklee/node-sincos.git"
+  },
+  "keywords": [
+    "sin",
+    "cos",
+    "approximation"
+  ],
+  "author": "Kenneth Lee <kennethkl@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kennethklee/node-sincos/issues"
+  },
+  "homepage": "https://github.com/kennethklee/node-sincos",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
